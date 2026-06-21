@@ -2740,6 +2740,56 @@ a.text-theme:hover,
   margin-top: 0;
 }
 
+.farms-experience-section {
+  background: #f8f9f5;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.farms-experience-section .title-area {
+  margin-bottom: 18px;
+}
+.farms-experience-text {
+  color: var(--body-color);
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+.farm-location-list {
+  display: grid;
+  gap: 18px;
+}
+.farm-location-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  background: var(--white-color);
+  border: 1px solid rgba(74, 124, 63, 0.16);
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+.farm-location-number {
+  align-items: center;
+  background: var(--theme-color);
+  border-radius: 50%;
+  color: var(--white-color);
+  display: inline-flex;
+  flex: 0 0 42px;
+  font-weight: 700;
+  height: 42px;
+  justify-content: center;
+  width: 42px;
+}
+.farm-location-item h3 {
+  color: var(--title-color);
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+.farm-location-item p {
+  color: var(--body-color);
+  margin-bottom: 0;
+}
+
 /* Homepage hero fixed height */
 .hero-layout1 .hero-slide {
   height: 500px;
