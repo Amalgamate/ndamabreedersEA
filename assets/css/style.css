@@ -8800,3 +8800,20 @@ table.variations .reset_variations {
   }
 }
 
+
+/* Staff mail link in Quick Links */
+.footer-layout1 .staff-mail-link {
+    position: relative;
+}
+.footer-layout1 .staff-mail-warning {
+    display: none;
+    margin-left: 8px;
+    color: #e53935;
+    font-size: 11px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+.footer-layout1 .staff-mail-link:hover .staff-mail-warning,
+.footer-layout1 .staff-mail-link:focus-visible .staff-mail-warning {
+    display: inline;
+}
